@@ -7,15 +7,11 @@ export async function saveSubscription(
   customerId: string,
   createAction = false
 ) {
+  console.log("função saveSubscription");
   const userRef = await fauna.query(
     q.Select(
       "ref",
-      q.Get(
-        q.Match(
-          q.Index("user_by_stripe_customer_id"), 
-          customerId
-          )
-        )
+      q.Get(q.Match(q.Index("user_by_stripe_customer_id"), customerId))
     )
   );
 
@@ -27,29 +23,28 @@ export async function saveSubscription(
     status: subscription.status,
     price_id: subscription.items.data[0].price.id,
   };
-
+  console.log("subscription");
+  console.log(subscription);
   if (createAction) {
-      await fauna.query(
-        q.Create(q.Collection("subscription"), { data: subscriptionData })
-      );
+    console.log("createAction");
+    console.log(createAction);
+    await fauna.query(
+      q.Create(q.Collection("subscription"), { data: subscriptionData })
+    );
   } else {
     try {
       await fauna.query(
         q.Replace(
           q.Select(
             "ref",
-            q.Get(
-              q.Match(
-                q.Index('subscription_by_id'),
-                subscriptionId,
-              )
-            )
+            q.Get(q.Match(q.Index("subscription_by_id"), subscriptionId))
           ),
           { data: subscriptionData }
         )
-      )
+      );
     } catch (err) {
-      // console.log('replace error')
+      console.log("manageSubsCatch");
+      console.log(err);
       // console.log(err)
     }
   }

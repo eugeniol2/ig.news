@@ -6,6 +6,7 @@ import { stripe } from "../../services/stripe";
 import { saveSubscription } from "./_lib/manageSubscription";
 
 async function buffer(readable: Readable) {
+  console.log("buffer");
   const chunks = [];
 
   for await (const chunk of readable) {
@@ -28,6 +29,7 @@ const relevantEvents = new Set([
 ]);
 
 export default async (req: NextApiRequest, res: NextApiResponse) => {
+  console.log("afterBuffer");
   if (req.method === "POST") {
     const buf = await buffer(req);
     const secret = req.headers["stripe-signature"];
@@ -49,8 +51,9 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
     if (relevantEvents.has(type)) {
       console.log(type);
       try {
+        console.log("type");
+        console.log(type);
         switch (type) {
-          
           case "customer.subscription.deleted":
             const subscription = event.data.object as Stripe.Subscription;
 
