@@ -1,9 +1,9 @@
 <!-- <h1> 🚧README EM DESENVOLVIMENTO 🚧 </h1> -->
 
 
-<h1 align="center">
+<div align="center">
   <img align="center" alt="IgniteModule1" width="50%px" height="50%" src="https://github.com/eugeniol2/assets/blob/ignewsAssets/ignite-react.jpg" />
-</h1>
+</div>
 
 
 <h2>Descrição 📝</h2>
@@ -13,14 +13,14 @@
 <div>
   <h2>Especificações</h2>
   <section>
-    <h3> Funcionais </h3>
+    <h4> Funcionais </h4>
     <ul>
       <li>O usuário, não logado, poderá acessar a preview dos posts.</li>
       <li>O usuário, não logado, poderá fazer login com o github.</li>
       <li>O usuário, logado, poderá se inscrever.</li>
       <li>O usuário, logado, inscrito, terá acesso a todos os posts completos.</li>
     </ul>
-    <h3> Não-Funcionais </h3>
+    <h4> Não-Funcionais </h4>
     <ul>
       <li>Ao clicar em sign-in o sistema, atravéz do Oauth irá autenticar o usuário com o github e criar um usuário no faunaDB se o mesmo não existir.</li>
       <li>Ao clicar em inscrever-se o sistema redirecionará o usuário para a tela de pagamento fornecida pelo stripe. </li>
@@ -30,6 +30,23 @@
     </ul>
   </section>
 </div>
+
+<div>
+  <section>
+    <h2> Tecnologias </h2>
+    <ul>
+      <li><a href="https://nextjs.org/">NextJs</a></li>
+      <li><a href="https://reactjs.org/">ReactJs</a></li>
+      <li><a href="https://prismic.io/">Prismic</a></li>
+      <li><a href="https://fauna.com/">FaunaDB</a></li>
+      <li><a href="https://www.typescriptlang.org/">Typescript</a></li>   
+      <li><a href="https://next-auth.js.org/">Next-Auth</a></li> 
+      <li><a href="https://sass-lang.com/">SASS</a></li> 
+    </ul>
+  </section>  
+</div>
+
+
 
 
 <h2> O que aprendi com este projeto </h2>
