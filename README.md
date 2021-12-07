@@ -52,8 +52,8 @@
 <h2> O que aprendi com este projeto </h2>
   
  <p>
-   O curso foi uma incrível oportunidade de conhecer como a "programação" funciona desde sua origem até o assembler, e outros componentes computacionais
-   tais como memória RAM, disco, etc... por mais que tenha sido desafiador, valeu muito a pena e foi muito gratificante finalizar este curso
+   Tal curso forneceu-me uma grande experiência prática do uso e funcionalidades do nextJS, e conhecimentos sobre integração com faunaDB, e como utilizar o stripe
+  para receber pagamentos, tais como assinaturas, produtos. etc
   </p>
  
 <div align="center">
