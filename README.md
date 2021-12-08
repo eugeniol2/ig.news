@@ -61,10 +61,51 @@
       <li><a href="https://fauna.com/">FaunaDB</a></li>
       <li><a href="https://prismic.io/">Prismic</a></li>
     </ul>
-    <h4> Configurações necessárias para o stripe, fauna e prismic encontram-se no <a href="https://github.com/eugeniol2/assets/blob/ignewsAssets/servicesConfig.md">servicesConfig</a>, na raiz do projeto </h4>
+    <h4> Configurações necessárias para o stripe, fauna e prismic encontram-se no <a href="https://github.com/eugeniol2/assets/blob/ignewsAssets/servicesConfig.md">servicesConfig</a> </h4>
   </section>  
 </div>
+<h1> Iniciando o projeto </h1>
 
+```bash
+
+# Clonar o projeto.
+$ git clone https://github.com/eugeniol2/ig.news
+# Entrar na pasta do projeto clonado.
+$ cd ignews
+
+```
+
+```bash
+
+# Clonar o projeto.
+$ git clone https://github.com/eugeniol2/ig.news
+# Entrar na pasta do projeto clonado.
+$ cd ignews
+
+```
+
+<h1> Variáveis ambiente </h1>
+<p>
+<h4> Stripe </h4>
+STRIPE_API_KEY
+STRIPE_SUCCESS_URL=http://localhost:3000/posts
+STRIPE_CANCEL_URL=http://localhost:3000
+STRIPE_WEBHOOK_SECRET
+NEXT_PUBLIC_STRIPE_PUBLIC_KEY
+
+<h4> Github </h4>
+GITHUB_CLIENT_ID
+GITHUB_CLIENT_SECRET
+
+
+<h4> Fauna DB </h4>
+FAUNADB_KEY
+
+<h4 Prismic </h4>
+PRISMIC_END_POINT
+PRISMIC_ACCESS_TOKEN
+ 
+</p>
 
 
 <h2> O que aprendi com este projeto </h2>
