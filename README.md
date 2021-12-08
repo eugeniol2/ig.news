@@ -143,4 +143,10 @@ $ yarn dev
   <img align="center" alt="IgnitePost"  src="https://github.com/eugeniol2/assets/blob/ignewsAssets/post.png" />
 </div>
 <br>
+
+## 📝 Licença
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+---
+<br>
 <p> Feito com ❤ por Eugênio Araújo. </p>
