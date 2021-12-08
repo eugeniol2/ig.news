@@ -1,5 +1,3 @@
-<!-- <h1> 🚧README EM DESENVOLVIMENTO 🚧 </h1> -->
-
 
 <div align="center">
   <img align="center" alt="IgniteModule1" width="50%px" height="50%" src="https://github.com/eugeniol2/assets/blob/ignewsAssets/ignite-react.jpg" />
@@ -144,5 +142,5 @@ $ yarn dev
   <h3> Tela do post </h3>
   <img align="center" alt="IgnitePost"  src="https://github.com/eugeniol2/assets/blob/ignewsAssets/post.png" />
 </div>
-
+<br>
 <p> Feito com ❤ por Eugênio Araújo. </p>
