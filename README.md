@@ -77,36 +77,49 @@ $ cd ignews
 
 ```bash
 
-# Clonar o projeto.
-$ git clone https://github.com/eugeniol2/ig.news
-# Entrar na pasta do projeto clonado.
-$ cd ignews
+# Execute yarn para instalar as dependências da aplicação.
+$ yarn
+
+# Execute stripe listen para receber/ouvir atualizações dos webhooks.
+$ stripe listen --forward-to localhost:3000/api/webhooks 
+
+# Para iniciar a aplicação.
+$ yarn dev
 
 ```
 
 <h1> Variáveis ambiente </h1>
-<p>
+<p>É necessário criar um arquivo .env na raiz do projeto e preencher as seguintes variáveis</p>
+
 <h4> Stripe </h4>
-STRIPE_API_KEY
-STRIPE_SUCCESS_URL=http://localhost:3000/posts
-STRIPE_CANCEL_URL=http://localhost:3000
-STRIPE_WEBHOOK_SECRET
-NEXT_PUBLIC_STRIPE_PUBLIC_KEY
+
+<ul>
+  <li>STRIPE_API_KEY</li>
+  <li>STRIPE_SUCCESS_URL=http://localhost:3000/posts</li>
+  <li>STRIPE_CANCEL_URL=http://localhost:3000</li>
+  <li>STRIPE_WEBHOOK_SECRET</li>
+  <li>NEXT_PUBLIC_STRIPE_PUBLIC_KEY</li>
+</ul>
+
+
 
 <h4> Github </h4>
-GITHUB_CLIENT_ID
-GITHUB_CLIENT_SECRET
+<ul>
+  <li>GITHUB_CLIENT_ID</li>
+  <li>GITHUB_CLIENT_SECRET</li>
+</ul>
 
 
 <h4> Fauna DB </h4>
-FAUNADB_KEY
+<ul>
+  <li>FAUNADB_KEY</li>
+</ul>
 
-<h4 Prismic </h4>
-PRISMIC_END_POINT
-PRISMIC_ACCESS_TOKEN
- 
-</p>
-
+<h4> Prismic </h4>
+<ul>
+  <li>PRISMIC_END_POINT</li>
+  <li>PRISMIC_ACCESS_TOKEN</li>
+</ul>
 
 <h2> O que aprendi com este projeto </h2>
   
