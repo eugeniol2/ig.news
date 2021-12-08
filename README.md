@@ -61,7 +61,7 @@
       <li><a href="https://fauna.com/">FaunaDB</a></li>
       <li><a href="https://prismic.io/">Prismic</a></li>
     </ul>
-    <h4> Configurações necessárias para o stripe, fauna e prismic encontram-se no servicesConfig, na raiz do projeto </h4>
+    <h4> Configurações necessárias para o stripe, fauna e prismic encontram-se no <a href="https://github.com/eugeniol2/assets/blob/ignewsAssets/servicesConfig.md">servicesConfig</a>, na raiz do projeto </h4>
   </section>  
 </div>
 
