@@ -46,6 +46,24 @@
   </section>  
 </div>
 
+<div>
+  <section>
+    <h2> Configurações </h2>
+    <h4>Realizar a instalação dos seguintes items</h4>
+    <ul>
+      <li><a href="https://classic.yarnpkg.com/lang/en/">Yarn</a></li>
+      <li><a href="https://git-scm.com/">Git</a></li>
+      <li><a href="https://stripe.com/docs/stripe-cli">Stripe_CLI</a></li>
+    </ul>
+    <h4>Configurações de serviçoes de terceiros</h4>
+    <ul>
+      <li><a href="https://stripe.com/br">Stripe</a></li>
+      <li><a href="https://fauna.com/">FaunaDB</a></li>
+      <li><a href="https://prismic.io/">Prismic</a></li>
+    </ul>
+    <h4> Configurações necessárias para o stripe, fauna e prismic encontram-se no servicesConfig, na raiz do projeto </h4>
+  </section>  
+</div>
 
 
 
