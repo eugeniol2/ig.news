@@ -67,7 +67,7 @@
     <h4> Configurações necessárias para o stripe, fauna e prismic encontram-se no <a href="https://github.com/eugeniol2/assets/blob/ignewsAssets/servicesConfig.md">servicesConfig</a> </h4>
   </section>  
 </div>
-<h1> Iniciando o projeto .🚀</h1>
+<h1> Iniciando o projeto 🚀</h1>
 
 ```bash
 
