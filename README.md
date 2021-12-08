@@ -144,3 +144,5 @@ $ yarn dev
   <h3> Tela do post </h3>
   <img align="center" alt="IgnitePost"  src="https://github.com/eugeniol2/assets/blob/ignewsAssets/post.png" />
 </div>
+
+<p> Feito com ❤ por Eugênio Araújo. </p>
